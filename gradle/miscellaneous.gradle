@@ -1,0 +1,16 @@
+group 'magic.group.magic'
+
+mainClassName = 'magic.group.magic.MainKt'
+
+defaultTasks 'run'
+
+applicationDefaultJvmArgs = ["-XX:+UseG1GC"]
+
+jar {
+	manifest {
+		attributes(
+			"Implementation-Title": "magic_github_repo_magic",
+			"Implementation-Vendor": "magic.group.magic"
+		)
+	}
+}
