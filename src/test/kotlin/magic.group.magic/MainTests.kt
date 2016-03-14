@@ -3,7 +3,7 @@ package magic.group.magic
 import kotlin.test.assertEquals
 import org.junit.Test
 
-class MainTests {
+class `Main Tests` {
 	@Test
 	fun `getGreeting returns "Hello world!"`() {
 		assertEquals("Hello world!", getGreeting())
